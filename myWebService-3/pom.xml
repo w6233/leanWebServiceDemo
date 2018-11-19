@@ -44,6 +44,28 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- CXF webservice -->
+		<dependency>
+	        <groupId>org.apache.cxf</groupId>
+	        <artifactId>cxf-core</artifactId>
+	        <version>3.2.4</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.apache.cxf</groupId>
+	        <artifactId>cxf-rt-frontend-jaxws</artifactId>
+	        <version>3.2.4</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.apache.cxf</groupId>
+	        <artifactId>cxf-rt-transports-http</artifactId>
+	        <version>3.2.4</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.apache.cxf</groupId>
+	        <artifactId>cxf-rt-transports-http-jetty</artifactId>
+	        <version>3.2.4</version>
+	    </dependency>
+		<!-- CXF webservice -->
 	</dependencies>
 
 	<build>

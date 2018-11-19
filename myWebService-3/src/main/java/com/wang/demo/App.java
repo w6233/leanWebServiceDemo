@@ -12,7 +12,7 @@ public class App {
 
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
-        String url = "http://localhost:8081/wsSer";
+        String url = "http://localhost:8083/wsSer";
         Endpoint.publish(url,new MySerImpl());
         System.out.println("发布webService成功！");
 	}
